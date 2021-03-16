@@ -1,0 +1,142 @@
+button {
+  padding: 0.5rem;
+  font-family: "Raleway", sans-serif;
+  color: #0c0910;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #ffffff;
+  border-radius: 1px #0c0910;
+}
+button:hover {
+  border-radius: 0.5px #646266;
+}
+
+input {
+  width: 300px;
+  font-family: "Raleway", sans-serif;
+  color: #646266;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+@media (min-width: 768px) {
+  input {
+    width: 600px;
+  }
+}
+footer {
+  background-color: #0c0910;
+  color: #ffffff;
+  padding: 0.5rem 0 1rem 2rem;
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin: 29% 0 0 0;
+}
+footer h2 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Old Standard TT", serif;
+  align-items: center;
+}
+footer p {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Old Standard TT", serif;
+}
+
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.suscribir {
+  color: #0c0910;
+  width: auto;
+  height: 3rem;
+  background-color: #ffffff;
+  font-size: 12px;
+  transform: rotate(90deg);
+  padding: 0.3rem;
+}
+
+.navbar {
+  padding: 0 !important;
+}
+.navbar .navbar__logo {
+  background-color: #0c0910;
+  color: #ffffff;
+  padding: 0.5rem;
+  font-family: "Old Standard TT", serif;
+  font-size: 18px;
+}
+.navbar .navbar-brand {
+  margin-left: 1rem;
+}
+.navbar .navbar-toggler {
+  border: none;
+}
+.navbar .navbar-light {
+  color: #0c0910 !important;
+}
+
+@media (min-width: 992px) {
+  .nav-link, .nav-item {
+    font-family: "Raleway", sans-serif;
+    color: #0c0910;
+    font-weight: 700;
+    padding: 0 1.5rem 0 1.5rem;
+  }
+}
+img {
+  width: 100%;
+}
+
+.section {
+  margin: 2rem;
+  color: #0c0910;
+}
+.section h1 {
+  font-family: "Old Standard TT", serif;
+  font-size: 50px;
+  font-weight: 700;
+}
+.section p {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+@media (min-width: 992px) {
+  .main {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+
+  .section-footer {
+    width: 50%;
+    height: 100%;
+  }
+
+  .section {
+    margin: 5rem;
+    color: #0c0910;
+  }
+  .section h1 {
+    font-family: "Old Standard TT", serif;
+    font-size: 50px;
+    font-weight: 700;
+  }
+  .section p {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
